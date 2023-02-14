@@ -1,7 +1,6 @@
 --[[
 	This property is protected.
 	You are not allowed to claim this as your own.
-	Removal of initial credits to the authors is prohibited.
 ]]
 
 if hookmetamethod and typeof(hookmetamethod) == 'function' then
@@ -836,7 +835,7 @@ local function rgb(hex)
 	return Color3.new(r, g, b)
 end
 
-local Window = library:AddWindow("welcome dtt haters | szze#6220",
+local Window = library:AddWindow("welcome | Multi Hub",
   {
 	main_color = Color3.fromRGB(80, 80, 80),
 	min_size = Vector2.new(500, 563),

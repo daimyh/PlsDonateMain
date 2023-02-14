@@ -1740,7 +1740,7 @@ msgdone.OnClientEvent:Connect(function(msgdata)
 	end)
 end)
 if game:GetService("CoreGui").imgui.Windows.Window.Title.Text == "Loading..." then
-	game:GetService("CoreGui").imgui.Windows.Window.Title.Text = "dtt haters hello | szze#6220"
+	game:GetService("CoreGui").imgui.Windows.Window.Title.Text = "hi | Multi Hub"
 end
 while task.wait(getgenv().settings.serverHopDelay * 60) do
 	if not hopTimer then

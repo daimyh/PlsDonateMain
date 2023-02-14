@@ -32,8 +32,8 @@ if isfile and writefile and typeof(isfile) == 'function' and typeof(writefile) =
 		writefile('PromptedDiscordCFCommunityPD.txt', game:GetService('HttpService'):JSONEncode('hi'))
 		local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
 		Module.Prompt({
-			invite = "https://discord.gg/fNeggqVMZs",
-			name = "CF Community",
+			invite = "https://discord.gg/n8V8GAV8sW",
+			name = "Multi Hub",
 		})
 	end
 end
